@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+nav a:hover {
+    background-color: #F2F2F2;
+    border-radius: 3px;
+    
+}
+
+nav {
+    
+    display: flex;
+    justify-content: left;
+}
+
+.link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 45px;
+    border-radius: 10px;
+    display: flex;
+    
+    float: right;
+}
+
+.link:hover {
+    background-color: #151515;
+}
+
+.foto {
+    margin-top: 30px;
+   margin-left: 30px;
+   width: 400px; 
+}
+
+article .fotoo{
+  display: inline-block;
+  position: absolute;
+}
+
+.fotoo h1{
+  width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  font-size: 90px;
+}
+
+.fotoo .one{
+  width: 1000px;
+  position: absolute;
+  top: 200px;
+  left: 25%;
+  font-size: 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.fotoo .two{
+  width: 1000px;
+  position: absolute;
+  font-size: 25px;
+  top: 400px;
+  left: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.text{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.tab {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 700px;
+    width: 200px;
+    padding-left: 80px;
+    
+}
+
+.tab:hover {
+    background-color: #151515;
+}
+
+
+
+
+
